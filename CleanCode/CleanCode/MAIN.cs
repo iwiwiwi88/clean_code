@@ -1,8 +1,6 @@
-﻿
+﻿using System;
 
-using System;
-
-namespace FruitStore
+namespace CleanCode
 {
     class Program
     {
@@ -12,7 +10,7 @@ namespace FruitStore
             // TODO Auto-generated method stub
             int X = 5; int Y = 5;
             int Z = 5;
-            
+
 
             Console.WriteLine("\n*****************************");
             Console.WriteLine("In our store we have:");
@@ -115,8 +113,7 @@ namespace FruitStore
             Console.WriteLine(Z + " oranges");
             Console.WriteLine("\n*****************************");
             Console.WriteLine("Update prices in Console");
-            double A, B, C = 0.0;
-            A = 0.6;
+            double A, B, C = 0.0; A = 0.6;
             A = A * 1.20;
             Console.WriteLine("a : " + A);
             B = 1.4;
@@ -128,5 +125,5 @@ namespace FruitStore
 
 
         }
-}
+    }
 }
